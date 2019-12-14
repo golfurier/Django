@@ -1,6 +1,7 @@
-h1 {
-    color: black;
+h1, h3 {
+    color: white;
 }
+
 
 body {
   background-image: url('../img/austin-schmid-hRdVSYpffas-unsplash.jpg');
@@ -9,6 +10,9 @@ body {
 }
 
 #home-content {
-    text-align: center;
+    /*text-align: center;*/
     padding-top: 2%;
 }
+
+
+
