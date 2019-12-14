@@ -1,0 +1,14 @@
+h1 {
+    color: black;
+}
+
+body {
+  background-image: url('../img/helena-lopes-e3OUQGT9bWU-unsplash.jpg');
+  background-size: cover;
+
+}
+
+#home-content {
+    text-align: center;
+    padding-top: 2%;
+}
