@@ -42,5 +42,5 @@ def poll_vote(request, poll_id):
         choice.save()
     else:
         messages.error(request, 'No choice Was found ')
-        return HttpResponseRedirect(re)
+        return HttpResponseRedirect(reverse("polls:detail", args=(poll_id,)))
     return render(request, 'polls/poll_results.html', {'poll': poll})
